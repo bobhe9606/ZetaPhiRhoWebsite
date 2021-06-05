@@ -19,11 +19,13 @@ a i {
 
 ul1{
   display: flex;
-  margin: 150px 100px 100px 370px;
+  position: fixed;
+  left: 263px;
+  top: 300px;
 }
 
 ul1 li{
-  position: relative;
+  position:relative;
   display: block;
   color: #666;
   font-size: 30px;
@@ -37,7 +39,7 @@ ul1 li{
   transition: .5s;
 }
 ul1 li:before{
-  position: absolute;
+  position: relative;
   content: '';
   top: 0;
   left: 0;
