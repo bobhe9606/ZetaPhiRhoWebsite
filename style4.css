@@ -17,7 +17,7 @@ a i {
   transition: transform 1s;
 }
 
-ul{
+ul.social-links{
   display: flex;
   position: relative;
   max-width: 100%;
@@ -40,7 +40,7 @@ ul.social-links li{
   transition: .5s;
   top: 150px;
 }
-ul li:before{
+ul.social-links li:before{
   position: absolute;
   content: '';
   top: 0;
@@ -53,40 +53,40 @@ ul li:before{
   z-index: -1;
   transition: .5s;
 }
-ul li:nth-child(1):before{
+ul.social-links li:nth-child(1):before{
   background: #4267B2;
 }
-ul li:nth-child(2):before{
+ul.social-links li:nth-child(2):before{
   background: #E1306C;
 }
-ul li:nth-child(3):before{
+ul.social-links li:nth-child(3):before{
   background: #ff0000;
 }
-ul li:hover:before{
+ul.social-links li:hover:before{
   filter: blur(3px);
   transform: scale(1.2);
   /* box-shadow: 0 0 15px #d35400;*/
 }
-ul li:nth-child(1):hover:before{
+ul.social-links li:nth-child(1):hover:before{
   box-shadow: 0 0 15px #4267B2;
 }
-ul li:nth-child(2):hover:before{
+ul.social-links li:nth-child(2):hover:before{
   box-shadow: 0 0 15px #E1306C;
 }
-ul li:nth-child(3):hover:before{
+ul.social-links li:nth-child(3):hover:before{
   box-shadow: 0 0 15px #ff0000;
 }
-ul li:nth-child(1):hover{
+ul.social-links li:nth-child(1):hover{
   color: #456cba;
   box-shadow: 0 0 15px #4267B2;
   text-shadow: 0 0 15px #4267B2;
 }
-ul li:nth-child(2):hover{
+ul.social-links li:nth-child(2):hover{
   color: #e23670;
   box-shadow: 0 0 15px #E1306C;
   text-shadow: 0 0 15px #E1306C;
 }
-ul li:nth-child(3):hover{
+ul.social-links li:nth-child(3):hover{
   color: #ff1a1a;
   box-shadow: 0 0 15px #ff0000;
   text-shadow: 0 0 15px #ff0000;

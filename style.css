@@ -159,6 +159,7 @@ button:hover {
     background-color: #2c2c309c;
     background-image: linear-gradient(rgba(179, 173, 173, 0.75), rgba(179, 173, 173, 0.75)), url(imgz.jpg);
     color: rgb(0, 0, 0);
+    height: 540px;
     
 
 }
@@ -172,6 +173,7 @@ button:hover {
     height: 400px;
     
 }
+
 
 #intro{
     display: flex;
@@ -191,6 +193,6 @@ button:hover {
     font-family: century;
     font-size: 3rem;
     text-align: center;
-    margin: 40px 0px;
+    margin: 10px 0px;
 
 }

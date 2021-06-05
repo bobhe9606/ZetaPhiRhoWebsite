@@ -11,8 +11,16 @@
     filter: brightness(1);
     background-size: cover;
     background-position: center;
+
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 /* Navbar */
 .navbar{
@@ -150,15 +158,45 @@ button:hover {
 
 /*about*/
 #about{
+    position: relative;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     background-color: #2c2c309c;
     color: #d0d0d5;
-    
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgz.jpg);
 
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#about2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-color: #2c2c309c;
+    color: #d0d0d5;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgz2.jpg);
+
+}
+
+#about3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 0px;
+    background-color: #2c2c309c;
+    color: #d0d0d5;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(black.jpg);
+    height: 300px;
 }
 
 #pic{
@@ -167,7 +205,20 @@ button:hover {
 
 #pic img{
     width: 575px;
-    height: 400px;
+    height: 380px;
+    
+}
+
+#pic2{
+    display: flex;
+    position: relative;
+    left: 370px;
+
+}
+
+#pic2 img{
+    width: 450px;
+    height: 350px;
     
 }
 
@@ -176,7 +227,7 @@ button:hover {
     flex-direction: column;
     text-align: justify;
     padding: 10px;
-    
+
 }
 
 #intro h2{
@@ -184,10 +235,78 @@ button:hover {
     margin-bottom: 20px;
     
 }
+#intro2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    position: fixed;
+    left: 8px;
+    right: 479px;
+    
+}
+
+#intro2 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}
+
+#chapters{
+    position: relative;
+    top: 0px;
+    font-size: 1.7rem;
+    left: 170px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+#chapters h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+#chapters2{
+    position: relative;
+    top: -165px;
+    font-size: 1.7rem;
+    left: 258px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+
+#chapters2 h2{
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+
+}
+
 
 .headings{
     font-family: century;
     font-size: 3rem;
+    text-align: center;
+    margin: 0px 10px 10px 0px;
+
+}
+
+
+.headings2{
+    position: relative;
+    top: 10px;
+    font-family: century;
+    font-size: 2rem;
     text-align: center;
     margin: 0px 10px 10px 0px;
 
