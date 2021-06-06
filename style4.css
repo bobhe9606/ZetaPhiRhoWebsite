@@ -38,10 +38,11 @@ ul.social-links li{
   margin: 0 15px;
   cursor: pointer;
   transition: .5s;
-  top: 150px;
+  top: 260px;
 }
 ul.social-links li:before{
   position: absolute;
+  display: initial;
   content: '';
   top: 0;
   left: 0;
@@ -52,6 +53,7 @@ ul.social-links li:before{
   transform: scale(.9);
   z-index: -1;
   transition: .5s;
+
 }
 ul.social-links li:nth-child(1):before{
   background: #4267B2;

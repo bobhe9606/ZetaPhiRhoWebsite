@@ -153,7 +153,7 @@ button:hover {
 
 /*about*/
 #about{
-    position: sticky;
+    /*position: initial;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -162,15 +162,24 @@ button:hover {
     background-color: #2c2c309c;
     color: #d0d0d5;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgz.jpg);
-
-    width: 100%;
-    height: 100%;
+*/
+position: initial;
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+padding: 20px;
+margin-bottom: 0px;
+background-color: #2c2c309c;
+color: #d0d0d5;
+background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgz.jpg);
+background-size: 100%;
+height: 800px;
 
 
 }
 
 #about2{
-    position: relative;
+    position: initial;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -179,6 +188,8 @@ button:hover {
     background-color: #2c2c309c;
     color: #d0d0d5;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgz2.jpg);
+    background-size: 100%;
+    height: 600px;
 
 }
 
@@ -196,35 +207,61 @@ button:hover {
 
 #pic{
     display: flex;
+    position: relative;
+    left: 0px;
+
 }
 
 #pic img{
-    width: 575px;
-    height: 380px;
+    width: 645px;
+    height: 480px;
     
 }
 
 #pic2{
     display: flex;
     position: relative;
-    left: 370px;
+    left: 1100px;
 
 
 }
 
 #pic2 img{
-    width: 450px;
-    height: 350px;
+    width: 750px;
+    height: 450px;
 
     
 }
 
 #intro{
-    display: flex;
+    /*padding: 10px;
+    font-size: 1.75rem;
+    position: relative;
+    left: 8px;
+    right: 479px;
+
+    height:370px;
+    word-wrap: break-word;
+
+    border: 1px solid green;*/
+
+    position: absolute;
+    display: initial;
     flex-direction: column;
-    text-align: justify;
     padding: 10px;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
+    position: relative;
+    right: 479px;
+
+
+    position: fixed;
+    left: 680px;
+
+    width:1200px;
+    height:370px;
+    word-wrap: break-word;
+
+    
 
 
 }
@@ -241,19 +278,22 @@ button:hover {
     position: fixed;
     left: 8px;
     right: 479px;*/
-
-    display: flex;
+    position: absolute;
+    display: initial;
     flex-direction: column;
-    text-align: justify;
     padding: 10px;
-    position: fixed;
+    font-size: 1.75rem;
+    position: relative;
     right: 590px;
 
 
     position: fixed;
-    top: 970px;
-    font-size: 1rem;
+    top: 1050px;
     left: 010px;
+
+    width:1080px;
+    height:370px;
+    word-wrap: break-word;
 
     
 }
@@ -263,8 +303,28 @@ button:hover {
     
 }
 
-#chapters{
+#intro3{
+    position: absolute;
+    display: initial;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.5rem;
     position: relative;
+
+    font-family: century;
+    text-align: left;
+
+    top: -20px;
+    word-wrap: break-word;
+
+}
+
+#intro3 h2{
+    margin-bottom: 20px;
+}
+
+#chapters{
+    /*position: relative;
     top: 0px;
     font-size: 1.7rem;
     left: -120px;
@@ -272,7 +332,25 @@ button:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 10px;*/
+    
+
+    position: absolute;
+    display: initial;
+    flex-direction: column;
     padding: 10px;
+    font-size: 1.7rem;
+    position: relative;
+
+
+    left: 210px;
+    top: 0px;
+    text-align: center;
+
+    width:1200px;
+    height:370px;
+    word-wrap: break-word;
+
 
 }
 
@@ -284,7 +362,7 @@ button:hover {
 }
 
 #chapters2{
-    position: relative;
+    /*position: relative;
     top: -174px;
     font-size: 1.7rem;
     left: 120px;
@@ -292,7 +370,24 @@ button:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 10px;*/
+
+    position: absolute;
+    display: initial;
+    flex-direction: column;
     padding: 10px;
+    font-size: 1.7rem;
+    position: relative;
+
+
+    left: 450px;
+    top: -177px;
+    text-align: center;
+
+    width:1200px;
+    height:370px;
+    word-wrap: break-word;
+
 
 }
 
@@ -314,11 +409,28 @@ button:hover {
 
 
 .headings2{
-    position: relative;
+    /*position: relative;
     top: 10px;
     font-family: century;
     font-size: 2rem;
     text-align: center;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 10px 10px 0px;*/
+
+    position: absolute;
+    display: initial;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 2rem;
+    position: relative;
+
+    font-family: century;
+    text-align: center;
+
+    left: 315px;
+    top: 10px;
+    width:1200px;
+    height:370px;
+    word-wrap: break-word;
+
 
 }
