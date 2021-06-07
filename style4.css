@@ -38,7 +38,8 @@ ul.social-links li{
   margin: 0 15px;
   cursor: pointer;
   transition: .5s;
-  top: 260px;
+  top: 210px;
+  left: -60px;
 }
 ul.social-links li:before{
   position: absolute;
@@ -177,7 +178,7 @@ ul.social-links {
 
 
 .logo{
-    width: 120px;
+    width: 220px;
     cursor: pointer;
 }
 

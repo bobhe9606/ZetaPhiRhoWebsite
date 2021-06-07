@@ -63,7 +63,7 @@ html,body{
 
 
 .logo{
-    width: 120px;
+    width: 220px;
     cursor: pointer;
 }
 
@@ -288,7 +288,7 @@ height: 800px;
 
 
     position: fixed;
-    top: 1050px;
+    top: 1132px;
     left: 010px;
 
     width:1080px;
