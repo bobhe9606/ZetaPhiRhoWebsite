@@ -11,6 +11,7 @@
     filter: brightness(1.25);
     background-size: cover;
     background-position: center;
+    display: none;
 }
 
 
@@ -26,7 +27,7 @@
 
 
 .logo{
-    width: 220px;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -35,6 +36,8 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
+    padding: 3px;
+
 }
 
 .navbar ul li a{

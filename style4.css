@@ -178,7 +178,7 @@ ul.social-links {
 
 
 .logo{
-    width: 220px;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -187,6 +187,8 @@ ul.social-links {
     display: inline-block;
     margin: 0 20px;
     position: relative;
+    padding: 3px;
+
 }
 
 .navbar ul li a{
