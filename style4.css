@@ -5,7 +5,7 @@
 }
 
 body{
-  display: flex;
+  /*display: flex;*/
   height: 100vh;
   text-align: center;
   align-items: center;
@@ -250,7 +250,6 @@ ul.social-links {
   flex-direction: column;
   box-sizing: border-box;
   align-items: center;
-  margin: 20px 0px;
 }
 
 .input{
