@@ -1,7 +1,7 @@
 <?php
-    $name = $POST['name'];
+    $name = $_POST['name'];
     $visitor_email = $_POST['email'];
-    $message = $POST['msg'];
+    $message = $_POST['msg'];
 
     $email_from = 'Zeta Website'
 
