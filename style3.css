@@ -297,3 +297,75 @@ button:hover {
 }
 
 */
+
+/* Contact Section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+
+}
+
+#email{
+    width: 70%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#name{
+    width: 70%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+#msg{
+    width: 100%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+#send{
+    padding: 10px;
+    width: 40%;
+    margin: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
