@@ -1,20 +1,27 @@
 <?php
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['msg'];
 
-    $email_from = 'Zeta Website';
+    $message_sent = false;
+    if(isset($_POST['email']) && $_POST['email'] != ''){
 
-    $email_subject = "Zeta Inquiries";
+        if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $message = $_POST['msg'];
 
-    $email_body = "Name: " . $name . "\r\n Email: " . $email . "\r\n Message: " . $message;
+            $email_from = 'Zeta Website';
 
-    $to = "roberthe9606@gmail.com";
+            $email_subject = "Zeta Inquiries";
 
-    $headers = "From : " . $email_from . "\r\n Reply-To: " . $email;
+            $email_body .= "Name: ".$name. "\r\n";
+            $email_body .= "Email: ".$email. "\r\n";
+            $email_body .= "Message: " .$message. "\r\n";
 
-    if($email != NULL)
-        mail($to,$email_subject,$email_body,$headers);
+            $to = "roberthe9606@gmail.com";
+
+            /*$headers = "From : " . $email_from . "\r\n Reply-To: " . $email;*/
+
+            mail($to,$email_subject,$email_body);
+        }
     }
     header("Location: index.html");
 ?>
