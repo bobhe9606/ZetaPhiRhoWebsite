@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 .banner{
@@ -87,7 +87,7 @@
     background: #282a92;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: 0px;
     transition: 0.5s;
 }
 
@@ -108,6 +108,10 @@
 .content h1{
     font-size: 40px;
     margin-top: 80px;
+}
+
+.content h2{
+    font-size: 40px;
 }
 
 .content p{
@@ -192,8 +196,8 @@ button:hover {
 }
 
 .headings{
-    font-family: century;
-    font-size: 3rem;
+    font-family: serif;
+    font-size: 2rem;
     text-align: center;
     margin: 10px 0px;
 }
@@ -268,4 +272,90 @@ button:hover {
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+}
+
+@media only screen and (min-width: 768px){
+/* Navbar */
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+/*.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex; 
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 35px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}*/
+
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    padding: 3px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #282a92;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
 }
