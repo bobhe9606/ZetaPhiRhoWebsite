@@ -224,13 +224,13 @@ background-size: 100%;
 }
 
 .intro2 p{
-    padding: 10px;
+    padding: 0px;
     line-height: 1;
 
 }
 
 .intro3{
-    width: 100%;
+    width: 90%;
     text-align: center;
     font-size: 1.25rem;
     margin-left: auto;
@@ -241,7 +241,7 @@ background-size: 100%;
 }
 
 .intro3 p{
-    padding: 10px;
+    padding: 0px;
     line-height: 1;
 }
 
