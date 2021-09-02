@@ -226,6 +226,19 @@
         width: 100%;
     }
 
+    .pic{
+        display: flex;
+    
+    }
+    
+    .pic img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 65%;
+    
+    }
 
 /* Contact Section */
 #contact{
@@ -299,3 +312,20 @@
 }
 
     }
+
+@media only screen and (min-width: 1024px){
+    .pic{
+        display: flex;
+        position: relative;
+    
+    }
+    
+    .pic img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        max-width: 45%;
+    
+    }
+
+}
